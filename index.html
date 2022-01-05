@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>column box vertical align cneter</title>
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
             font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +15,11 @@
             transition: 0.7s;
             text-decoration: none;
         }
-        section{
+
+        section {
             padding: 50px 0;
         }
+
         /* .head{
             background-color: brown;
             color: white;
@@ -42,10 +44,12 @@
         .col>img {
             width: 100%;
         }
-        .button{
+
+        .button {
             margin: 20px 0;
         }
-        .btn{
+
+        .btn {
             padding: 10px 40px;
             background-color: #7cb900;
             color: white;
@@ -56,25 +60,45 @@
             border: none;
             cursor: pointer;
         }
-        .btn:hover{
+
+        .btn:hover {
             background-color: #517900;
         }
-        .sec_row{
+
+        .sec_row {
             flex-direction: row-reverse;
         }
+
+
+        @media screen and (max-width: 991px) {
+            .container {
+                width: 800px;
+            }
+
+            .sec_row {
+                flex-direction: row;
+            }
+
+            .col {
+                width: 48%;
+                padding: 2%;
+            }
+        }
+
         @media screen and (max-width: 600px) {
-            .container{
+            .container {
                 width: 400px;
             }
-            .row{
+
+            .row {
                 flex-direction: column;
             }
-            .col{
+
+            .col {
                 width: 97%;
                 padding: 3%;
             }
         }
-
     </style>
 </head>
 
@@ -90,10 +114,10 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam temporibus corporis
                         voluptate, vero mollitia, vel deserunt dolores accusamus fugiat nam sapiente quo necessitatibus
                         pariatur, tempora nobis eius sed similique?</p>
-                        <!-- <div class="button">
+                    <!-- <div class="button">
                             <a href="#" class="btn">Click Here</a>
                         </div> -->
-                        <button class="btn">Click here</button>
+                    <button class="btn">Click here</button>
                 </div>
             </div>
         </div>
@@ -112,10 +136,10 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam temporibus corporis
                         voluptate, vero mollitia, vel deserunt dolores accusamus fugiat nam sapiente quo necessitatibus
                         pariatur, tempora nobis eius sed similique?</p>
-                        <!-- <div class="button">
+                    <!-- <div class="button">
                             <a href="#" class="btn">Click Here</a>
                         </div> -->
-                        <button class="btn">Click here</button>
+                    <button class="btn">Click here</button>
                 </div>
             </div>
         </div>
